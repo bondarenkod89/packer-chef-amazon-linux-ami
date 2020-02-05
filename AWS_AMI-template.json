@@ -26,8 +26,7 @@
             "most_recent": true
         },
           "tags": {
-            "OS_Version": "CentOS",
-            "Release": "7",
+            "OS_Version": "Amazon",
             "Base_AMI_Name": "{{ .SourceAMIName }}",
             "Extra": "{{ .SourceAMITags.TagName }}"
           }
