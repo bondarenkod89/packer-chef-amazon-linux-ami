@@ -1,0 +1,1 @@
+# packer-chef-amazon-linux-ami
