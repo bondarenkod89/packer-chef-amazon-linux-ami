@@ -1,0 +1,51 @@
+{
+  "revision_id": "5e68a0236bfc958d08f9e519e9b62897c0a546261de9330c1e3b5963cbeaffac",
+  "name": "wp-cookbook",
+  "run_list": [
+    "recipe[wp-cookbook::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "wp-cookbook": {
+      "version": "0.1.0",
+      "identifier": "b0a03ac4d0ed77a7edf90b15669f31ad180ce44c",
+      "dotted_decimal_identifier": "49715770171649399.47267974999271071.54619502601292",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": "https://github.com/bondarenkod89/wp-cookbook.git",
+        "revision": "8aaeb1e8f468bd4d610eaf458474c3b9df7f0591",
+        "working_tree_clean": false,
+        "published": true,
+        "synchronized_remote_branches": [
+          "origin/master"
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "wp-cookbook",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "wp-cookbook (0.1.0)": [
+
+      ]
+    }
+  }
+}
